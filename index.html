@@ -6,19 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
     <link rel="stylesheet" href="./style.css"
 </head>
 <body>
     <div class="container">
         <div class="row border border-primary" name="header">
             <div id="header" class="col-lg-12 pt-3 pb-3 pl-5 pr-5">
-                <h1>New York Times Search
-
-                </h1>
+                    <h1><ion-icon name="today"></ion-icon>New York Times Search</h1>
             </div>
         </div>
         <div id="search" class="row mt-5 mb-3 border border-secondary" name="searchBody">
-            <div class="col-lg-12">Search Parameters</div>
+            <div class="col-lg-12"><ion-icon name="menu"></ion-icon>Search Parameters</div>
             <div class="w-100"></div>
             <form class="col-lg-12">
                 <div class="form-group">
@@ -37,11 +36,12 @@
                     <label for="endYear">End Year (Optional):</label>
                     <input type="text" class="form-control" id="endYear" placeholder="">
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="button" class="btn btn-link"><ion-icon name="search"></ion-icon>Search</button>
+                <button type="button" class="btn btn-link"><ion-icon name="trash"></ion-icon>Clear Results</button>
             </form>
         </div>
         <div class="row border border-success" name="articleBody">
-            <div class="col-lg-12">Top Articles</div>
+            <div class="col-lg-12"><ion-icon name="apps"></ion-icon>Top Articles</div>
             <div class="w-100"></div>
             <div class="col-xs">Empty Space?</div>
         </div>

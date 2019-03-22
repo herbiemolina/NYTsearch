@@ -2,13 +2,20 @@
 html, body {
     height: 100%;
     position: relative;
+    color: navy;
 }
 /* This sectio is for the Header */
 #header {
     height: 30%;
     text-align: center;
+    background-color: navy;
+    color: white;
 
 }
+
+h1 ion-icon {
+    font-size: 30px;
+  }
 /* This section is for the Search Body */
 #search {
     height:50%;
@@ -16,6 +23,10 @@ html, body {
 
 .form-control {
     width:100%;
+}
+
+.btn {
+    color: navy;
 }
 /* This section is for the footer */
 #footer {
