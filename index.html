@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css"
+</head>
+<body>
+    <div class="container">
+        <div class="row border border-primary" name="header">
+            <div id="header" class="col-lg-12 pt-3 pb-3 pl-5 pr-5">
+                <h1>New York Times Search
+
+                </h1>
+            </div>
+        </div>
+        <div id="search" class="row mt-5 mb-3 border border-secondary" name="searchBody">
+            <div class="col-lg-12">Search Parameters</div>
+            <div class="w-100"></div>
+            <form class="col-lg-12">
+                <div class="form-group">
+                    <label for="searchTerm">Search Term:</label>
+                    <input type="text" class="form-control" id="searchTerm" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="numOfRecords">Number of Records to Retrieve:</label>
+                    <input type="text" class="form-control" id="numOfRecords" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="startYear">Start Year (Optional):</label>
+                    <input type="text" class="form-control" id="startYear" placeholder="">
+                </div>
+                <div class="form-group">
+                    <label for="endYear">End Year (Optional):</label>
+                    <input type="text" class="form-control" id="endYear" placeholder="">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="row border border-success" name="articleBody">
+            <div class="col-lg-12">Top Articles</div>
+            <div class="w-100"></div>
+            <div class="col-xs">Empty Space?</div>
+        </div>
+        <div id="footer" class="row border border-danger" name="footer">
+            Made with lots and lots of love
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>

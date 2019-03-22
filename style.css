@@ -1,0 +1,24 @@
+/* HTML and Body section */
+html, body {
+    height: 100%;
+    position: relative;
+}
+/* This sectio is for the Header */
+#header {
+    height: 30%;
+    text-align: center;
+
+}
+/* This section is for the Search Body */
+#search {
+    height:50%;
+}
+
+.form-control {
+    width:100%;
+}
+/* This section is for the footer */
+#footer {
+    position: absolute;
+    bottom: 0;
+}
